@@ -124,7 +124,7 @@ If you like this project you can star the repository to make it look better.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for giving me all the necessary knowledge I need to make this project.
+I would like to thank Cindy Shin the author for her fine work in the design of the great structure of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
