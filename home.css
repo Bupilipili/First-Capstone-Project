@@ -1,4 +1,7 @@
+html { scroll-behavior: smooth; }
+
 /* mobile version */
+
 body {
   margin: 0;
   padding: 0;
