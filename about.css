@@ -3,7 +3,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   padding: 0;
-  width: 116%;
+  width: 100%;
 }
 
 .head {
@@ -29,7 +29,7 @@ body {
 
 .logo {
   width: 12em;
-  padding-right: 60px;
+  padding-right: 20px;
 }
 
 .mobile-nav {
@@ -275,7 +275,7 @@ h3 {
   grid-template-columns: auto;
   grid-template-rows: auto auto;
   background-color: #414246;
-  padding-bottom: 20px;
+  padding-bottom: 0;
   gap: 2px;
   justify-content: center;
   align-items: center;
@@ -302,7 +302,7 @@ h3 {
 }
 
 .imagex {
-  width: 5.688rem;
+  width: 4.688rem;
   height: 5.65rem;
 }
 
