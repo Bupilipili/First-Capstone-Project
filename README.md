@@ -27,14 +27,17 @@
 
 
 
-# 📖 [My Portfolio] <a name="about-project"></a>
+# 📖 [FGE Fellowship] <a name="about-project"></a>
 
-**[My Portfolio]** is a website which contains list of projects and skills that I have as a software developer. 
+**[FGE Fellowship]** is a website which give information about Focus Gender Equality Fellowship. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
- >HTML5 & CSS3
+ >HTML5
+ >CSS3
+ >Javascript
+
 ### Key Features <a name="key-features"></a>
 
 - **[Contacts]**
@@ -60,15 +63,15 @@ Clone this repository to your desired folder:
 
 Example commands:
 
-  git clone https://github.com/Bupilipili/MY-PORTFOLIO.git
+  git clone https://github.com/Bupilipili/First-Capstone-Project.git
  
-  cd My-Portfolio
+  cd First-Capstone-Project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🌍 Online Version <a name="online-version"></a>
   
-  https://bupilipili.github.io/MY-PORTFOLIO/
+  https://bupilipili.github.io/First-Capstone-Project/
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +89,7 @@ Example commands:
 
 - [ ] **[Blog]**
 - [ ] **[FAQs]**
-- [ ] **[Logo]**
+- [ ] **[Contact-form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +98,7 @@ Example commands:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/Bupilipili/MY-PORTFOLIO/issues].
+Feel free to check the [https://github.com/Bupilipili/First-Capstone-Project/issues].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
