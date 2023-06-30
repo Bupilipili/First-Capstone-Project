@@ -5,12 +5,12 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   padding: 0;
-  width: 116%;
+  width: 100%;
 }
 
 .head {
   display: flex;
-  gap: 132px;
+  gap: 25%;
   background-color: white;
   justify-content: flex-start;
   padding-bottom: 0.5rem;
@@ -31,7 +31,7 @@ body {
 
 .logo {
   width: 12em;
-  padding-right: 60px;
+  padding-right: 10px;
 }
 
 .mobile-nav {
@@ -326,7 +326,7 @@ h6 {
   grid-template-columns: auto;
   grid-template-rows: auto auto;
   background-color: #414246;
-  padding-bottom: 20px;
+  padding-bottom: 0;
   gap: 2px;
 }
 
@@ -351,7 +351,7 @@ h6 {
 }
 
 .imagex {
-  width: 5.688rem;
+  width: 4.688rem;
   height: 5.65rem;
 }
 
