@@ -356,10 +356,14 @@ h3 {
   }
 
   .desktop-nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 0;
     gap: 10%;
     align-items: center;
     justify-content: center;
+    width: 90vw;
   }
 
   .nav-flex {
@@ -371,7 +375,7 @@ h3 {
 
   .top-nav {
     display: flex;
-    gap: 25px;
+    gap: 55px;
     align-items: center;
     justify-content: center;
   }
