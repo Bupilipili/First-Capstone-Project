@@ -17,6 +17,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+- [🛰️ Deployment](#deployment)  
 - [🌍 Online Version](#online-version) 
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -29,14 +30,15 @@
 
 # 📖 [FGE Fellowship] <a name="about-project"></a>
 
-**[FGE Fellowship]** is a website which give information about Focus Gender Equality Fellowship. 
+**[FGE Fellowship]** is a website about Focus Gender Equality Fellowship held in Qatar in 2023. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
- >HTML5
- >CSS3
- >Javascript
+
+ - **[HTML5]**
+- **[CSS3]**
+- **[Javascript]**
 
 ### Key Features <a name="key-features"></a>
 
@@ -69,11 +71,20 @@ Example commands:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## 🛰️ Deployment <a name="deployment"></a>
+
+  This website is deployed through Github pages.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🌍 Online Version <a name="online-version"></a>
   
   https://bupilipili.github.io/First-Capstone-Project/
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -84,6 +95,7 @@ Example commands:
 - LinkedIn: [ErickBupilipili](https://linkedin.com/in/ErickBupilipili)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -112,8 +124,7 @@ If you like this project you can star the repository to make it look better.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for giving me all the necessary knowledge i need to make this project.
-
+I would like to thank Microverse for giving me all the necessary knowledge I need to make this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
