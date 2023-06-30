@@ -1,3 +1,4 @@
+html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
@@ -227,6 +228,9 @@ h3 {
   margin-top: 30px;
   width: 296px;
   height: 82.715px;
+  border-bottom: 1px solid #faf9f4;
+  background: #fff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .last {
