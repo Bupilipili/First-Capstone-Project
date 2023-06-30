@@ -39,7 +39,7 @@ const speakers = [
 function createProjectList() {
   const projects = document.querySelector('.grid3');
   for (let i = 0; i < speakers.length; i += 1) {
-    const card = document.createElement('div');
+    const card = document.createElement('article');
     card.classList.add('speaker');
     card.innerHTML = `                  
     <img alt="speaker1" src="${speakers[i].image}" class="image">
@@ -48,7 +48,7 @@ function createProjectList() {
     <h6>${speakers[i].Rank}</h6>
     <div class="smallbar"></div>
     <p class="Sabout">${speakers[i].About}</p>
-    </div>
+    </article>
     `;
     projects.appendChild(card);
   }
