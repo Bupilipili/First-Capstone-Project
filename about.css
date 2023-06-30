@@ -354,7 +354,7 @@ h3 {
 
   .desktop-nav {
     display: flex;
-    gap: 0;
+    gap: 10%;
     align-items: center;
     justify-content: center;
   }
