@@ -11,13 +11,11 @@ body {
 .head {
   display: flex;
   gap: 25%;
-  background-color: white;
   justify-content: flex-start;
-  padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   align-items: center;
-  border-bottom: 1px solid #fafafa;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-image: url(./Features/images/desktopimg2.png);
+  background-repeat: no-repeat;
 }
 
 #open_menu {
@@ -103,6 +101,8 @@ body {
   grid-template-rows: auto auto auto;
   padding: 6.125rem 1.063rem 2rem 1.063rem;
   gap: 30px;
+  background-image: url(./Features/images/desktopimg2.png);
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -128,6 +128,7 @@ h2 {
   letter-spacing: -0.12px;
   border: 4px solid #fff;
   padding: 14px;
+  background-color: #f8f8f8;
 }
 
 h3 {
@@ -237,6 +238,10 @@ h4 {
   letter-spacing: -0.16px;
   background-color: #ff4f38;
   padding: 20px 50px;
+}
+
+.whole {
+  display: none;
 }
 
 /* Dynamic section */
@@ -421,7 +426,7 @@ h6 {
 
   .top-nav {
     display: flex;
-    gap: 32px;
+    gap: 55px;
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -454,29 +459,31 @@ h6 {
     list-style: none;
     border: 5px solid #ec4327;
     padding: 12px;
-    margin-left: 7rem;
+    margin-left: 5rem;
   }
 
   .grid1 {
     padding: 7.25rem 21.813rem 7.563rem 9.875rem;
+    background-size: cover;
   }
 
   h2 {
     font-size: 46px;
+    margin-bottom: 6px;
   }
 
   h1 {
-    font-size: 52px;
+    font-size: 63px;
   }
 
   .message {
-    font-size: 26px;
+    font-size: 20px;
     line-height: 36.111px;
     letter-spacing: -0.255px;
   }
 
   h3 {
-    font-size: 43px;
+    font-size: 36px;
   }
 
   .location {
@@ -533,6 +540,24 @@ h6 {
     letter-spacing: -0.3px;
   }
 
+  .join {
+    display: none;
+  }
+
+  .whole {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    text-decoration-line: underline;
+  }
+
   .grid3 {
     display: grid;
     grid-template-columns: auto auto;
@@ -571,6 +596,7 @@ h6 {
 
   .lespartners {
     padding-top: 20px;
+    gap: 30px;
   }
 
   .imagex {
