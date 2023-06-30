@@ -9,19 +9,17 @@ body {
 .head {
   display: flex;
   gap: 132px;
-  background-color: white;
+  background-color: #f8f8f8;
   justify-content: flex-start;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   align-items: center;
-  border-bottom: 1px solid #fafafa;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 #open_menu {
   display: flex;
   justify-content: flex-start;
-  color: #868686;
+  color: #414246;
   font-size: 34px;
   cursor: pointer;
   margin-left: 12px;
@@ -95,13 +93,14 @@ body {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
   padding: 0;
-  gap: 20px;
   text-align: center;
   background-color: #f8f8f8;
+  background-image: url(./Features/images/desktopimg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .intro {
-  background-color: #f8f8f8;
   margin-top: 0;
   padding: 0 2px 55px 2px;
 }
@@ -116,7 +115,7 @@ h1 {
 h2 {
   margin-bottom: 8px;
   color: #ff5438;
-  margin-top: 4px;
+  margin-top: 32px;
   font-family: 'Lato', sans-serif;
 }
 
@@ -128,7 +127,7 @@ h2 {
   font-family: Lato;
   line-height: 25px;
   background-color: #fff;
-  margin: 0;
+  margin: 0 22px;
   padding: 0 4px 0 4px;
 }
 
@@ -136,7 +135,7 @@ h2 {
   background-color: #f8f8f8;
   padding-left: 80px;
   padding-right: 80px;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .contact {
@@ -243,6 +242,7 @@ h3 {
   grid-template-rows: auto auto auto;
   align-items: center;
   justify-content: center;
+  width: 100vw;
 }
 
 .past {
@@ -276,7 +276,6 @@ h3 {
   grid-template-rows: auto auto;
   background-color: #414246;
   padding-bottom: 0;
-  gap: 2px;
   justify-content: center;
   align-items: center;
 }
@@ -308,11 +307,15 @@ h3 {
 
 .words {
   display: flex;
-  gap: 20px;
-  padding: 2.5rem 0.75rem;
+  gap: 8%;
+  padding: 16px;
   justify-content: center;
   align-items: center;
   background-color: #fff;
+}
+
+.logo2 {
+  display: none;
 }
 
 /* desktop version */
@@ -405,6 +408,8 @@ h3 {
 
   .grid1 {
     padding: 3.25rem 9.875rem 7.563rem 9.875rem;
+    background-image: url(./Features/images/desktopimg.png);
+    background-repeat: no-repeat;
   }
 
   .intro {
@@ -412,6 +417,7 @@ h3 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0 89px;
   }
 
   h2 {
@@ -432,8 +438,13 @@ h3 {
   }
 
   .word {
-    padding: 65px;
-    font-size: 16px;
+    padding: 18px 42px;
+    font-size: 14px;
+    margin: 0 129px;
+  }
+
+  .info {
+    margin-top: 36px;
   }
 
   .contact {
@@ -461,25 +472,36 @@ h3 {
   }
 
   .image {
-    width: 349px;
-    height: 276px;
+    width: 374px;
+    height: 256px;
   }
 
   .past {
     flex-direction: row;
+    padding: 40px 50px 110px 50px;
   }
 
-  .pship {
-    font-size: 30px;
+  .partners {
+    display: none;
   }
 
-  .lespartners {
-    padding-top: 20px;
+  .words {
+    background-color: #000;
+    padding: 74px 146px;
   }
 
-  .imagex {
-    width: 20%;
-    height: 75px;
-    max-width: 200px;
+  .logo2 {
+    width: 14em;
+    padding-right: 20px;
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .Sabout {
+    color: #fff;
+    font-size: 14px;
   }
 }
