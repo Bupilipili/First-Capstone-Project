@@ -34,10 +34,10 @@ const speakers = [
     Rank: 'CEO of Focus Gender Equality Fellowship',
     About: 'Ryan is involved with all the issues concerning gender fellowships and the rest of things needed',
     image: './Features/images/speaker_01 6.svg',
-  }
+  },
 ];
 function createProjectList() {
-    const projects = document.querySelector('.grid3');
+  const projects = document.querySelector('.grid3');
   for (let i = 0; i < speakers.length; i += 1) {
     const card = document.createElement('div');
     card.classList.add('speaker');
