@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./features/images/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./Features/images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Welcome to my Project</b></h3>
@@ -17,6 +17,7 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+- [🛰️ Deployment](#deployment)  
 - [🌍 Online Version](#online-version) 
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -27,14 +28,18 @@
 
 
 
-# 📖 [My Portfolio] <a name="about-project"></a>
+# 📖 [FGE Fellowship] <a name="about-project"></a>
 
-**[My Portfolio]** is a website which contains list of projects and skills that I have as a software developer. 
+**[FGE Fellowship]** is a website about Focus Gender Equality Fellowship held in Qatar in 2023. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
- >HTML5 & CSS3
+
+ - **[HTML5]**
+- **[CSS3]**
+- **[Javascript]**
+
 ### Key Features <a name="key-features"></a>
 
 - **[Contacts]**
@@ -60,17 +65,26 @@ Clone this repository to your desired folder:
 
 Example commands:
 
-  git clone https://github.com/Bupilipili/MY-PORTFOLIO.git
+  git clone https://github.com/Bupilipili/First-Capstone-Project.git
  
-  cd My-Portfolio
+  cd First-Capstone-Project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🛰️ Deployment <a name="deployment"></a>
+
+  This website is deployed through Github pages.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🌍 Online Version <a name="online-version"></a>
   
-  https://bupilipili.github.io/MY-PORTFOLIO/
+  https://bupilipili.github.io/First-Capstone-Project/
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -82,11 +96,12 @@ Example commands:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Blog]**
 - [ ] **[FAQs]**
-- [ ] **[Logo]**
+- [ ] **[Contact-form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +110,7 @@ Example commands:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/Bupilipili/MY-PORTFOLIO/issues].
+Feel free to check the [https://github.com/Bupilipili/First-Capstone-Project/issues].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,8 +124,7 @@ If you like this project you can star the repository to make it look better.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for giving me all the necessary knowledge i need to make this project.
-
+I would like to thank Cindy Shin the author for her fine work in the design of the great structure of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
