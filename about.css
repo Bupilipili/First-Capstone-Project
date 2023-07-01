@@ -360,7 +360,7 @@ h3 {
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     padding: 0;
-    gap: 8%;
+    gap: 15%;
     align-items: center;
     justify-content: center;
     width: 90vw;
@@ -438,13 +438,15 @@ h3 {
 
   h1 {
     padding-top: 109px;
-    font-size: 52px;
+    font-size: 62px;
+    font-weight: 800;
+    margin: 0 64px;
   }
 
   .word {
     padding: 18px 42px;
     font-size: 14px;
-    margin: 0 129px;
+    margin: 0 70px;
   }
 
   .info {
@@ -507,5 +509,41 @@ h3 {
   .Sabout {
     color: #fff;
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1540px) {
+  .desktop-nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 0;
+    gap: 26%;
+    align-items: center;
+    justify-content: center;
+    width: 81vw;
+  }
+
+  .top-nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .nav-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 265px;
+  }
+
+  .info {
+    margin: 36px 281px;
+  }
+
+  .word {
+    margin: 0 160px;
   }
 }
