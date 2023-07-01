@@ -360,10 +360,10 @@ h3 {
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     padding: 0;
-    gap: 15%;
+    gap: 0;
     align-items: center;
     justify-content: center;
-    width: 90vw;
+    width: 100vw;
   }
 
   .nav-flex {
@@ -375,7 +375,7 @@ h3 {
 
   .top-nav {
     display: flex;
-    gap: 45px;
+    gap: 15px;
     align-items: center;
     justify-content: center;
   }
@@ -411,7 +411,7 @@ h3 {
   }
 
   .grid1 {
-    padding: 3.25rem 9.875rem 7.563rem 9.875rem;
+    padding: 3.25rem 0.875rem 7.563rem 0.875rem;
     background-image: url(./Features/images/desktopimg.png);
     background-repeat: no-repeat;
   }
@@ -478,13 +478,14 @@ h3 {
   }
 
   .image {
-    width: 374px;
+    width: 328px;
     height: 256px;
   }
 
   .past {
     flex-direction: row;
     padding: 40px 50px 110px 50px;
+    width: 87vw;
   }
 
   .partners {
@@ -509,6 +510,40 @@ h3 {
   .Sabout {
     color: #fff;
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .desktop-nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 0;
+    gap: 15%;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .top-nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .nav-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .grid1 {
+    padding: 3.25rem 9.875rem 7.563rem 9.875rem;
+    background-image: url(./Features/images/desktopimg.png);
+    background-repeat: no-repeat;
   }
 }
 
