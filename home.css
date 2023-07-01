@@ -411,7 +411,7 @@ h6 {
     grid-template-columns: auto auto;
     grid-template-rows: auto;
     padding: 0;
-    gap: 8%;
+    gap: 15%;
     align-items: center;
     justify-content: center;
     width: 90vw;
@@ -473,17 +473,19 @@ h6 {
   }
 
   h1 {
-    font-size: 63px;
+    font-size: 70px;
+    font-weight: 800;
   }
 
   .message {
     font-size: 20px;
     line-height: 36.111px;
     letter-spacing: -0.255px;
+    margin-right: 160px;
   }
 
   h3 {
-    font-size: 36px;
+    font-size: 38px;
   }
 
   .location {
@@ -603,5 +605,49 @@ h6 {
     width: 20%;
     height: 75px;
     max-width: 200px;
+  }
+}
+
+@media screen and (min-width: 1540px) {
+  .desktop-nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    padding: 0;
+    gap: 26%;
+    align-items: center;
+    justify-content: center;
+    width: 81vw;
+  }
+
+  .top-nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .nav-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 265px;
+  }
+
+  .grid1 {
+    padding: 7.25rem 21.813rem 7.563rem 9.875rem;
+    background-size: cover;
+  }
+
+  h1 {
+    margin-right: 22%;
+  }
+
+  .message {
+    font-size: 20px;
+    line-height: 36.111px;
+    letter-spacing: -0.255px;
+    margin-right: 32%;
   }
 }
